@@ -1,0 +1,4 @@
+F:/Uni_work/Year2/SHOT/Assignment_2/cmake/CMakeFiles/ALL_BUILD.dir
+F:/Uni_work/Year2/SHOT/Assignment_2/cmake/CMakeFiles/ZERO_CHECK.dir
+F:/Uni_work/Year2/SHOT/Assignment_2/cmake/src/CMakeFiles/Magpie_win_sfml.dir
+F:/Uni_work/Year2/SHOT/Assignment_2/cmake/projects/CMakeFiles/SHOT2_assignment.dir

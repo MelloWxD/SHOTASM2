@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{96B8ADBD-C373-3A15-87BD-4749590599D6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Magpie_win_sfml</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Magpie_win_sfml.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Magpie_win_sfml_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Magpie_win_sfml.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Magpie_win_sfml</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Magpie_win_sfml.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Magpie_win_sfml_rwdi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;SFML_STATIC;TINYXML2_DEBUG;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;SFML_STATIC;TINYXML2_DEBUG;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;SFML_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;SFML_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Uni_work/Year2/SHOT/Assignment_2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\vendor\cmake_bin\bin\cmake.exe -SF:/Uni_work/Year2/SHOT/Assignment_2 -BF:/Uni_work/Year2/SHOT/Assignment_2/cmake --check-stamp-file F:/Uni_work/Year2/SHOT/Assignment_2/cmake/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\CMakePushCheckState.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\CheckSymbolExists.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindBZip2.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindFreetype.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindPNG.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindPackageMessage.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindZLIB.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\SelectLibraryConfigurations.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\freetype\vcpkg-cmake-wrapper.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\glm\glm-config.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLConfig.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLConfigDependencies.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLConfigVersion.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLStaticTargets.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-config-version.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-config.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-static-targets-debug.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-static-targets-release.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-static-targets.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\zlib\vcpkg-cmake-wrapper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\cmake\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Uni_work/Year2/SHOT/Assignment_2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\vendor\cmake_bin\bin\cmake.exe -SF:/Uni_work/Year2/SHOT/Assignment_2 -BF:/Uni_work/Year2/SHOT/Assignment_2/cmake --check-stamp-file F:/Uni_work/Year2/SHOT/Assignment_2/cmake/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\CMakePushCheckState.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\CheckSymbolExists.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindBZip2.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindFreetype.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindPNG.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindPackageMessage.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindZLIB.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\SelectLibraryConfigurations.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\freetype\vcpkg-cmake-wrapper.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\glm\glm-config.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLConfig.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLConfigDependencies.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLConfigVersion.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLStaticTargets.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-config-version.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-config.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-static-targets-debug.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-static-targets-release.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-static-targets.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\zlib\vcpkg-cmake-wrapper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\cmake\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Uni_work/Year2/SHOT/Assignment_2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\vendor\cmake_bin\bin\cmake.exe -SF:/Uni_work/Year2/SHOT/Assignment_2 -BF:/Uni_work/Year2/SHOT/Assignment_2/cmake --check-stamp-file F:/Uni_work/Year2/SHOT/Assignment_2/cmake/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\CMakePushCheckState.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\CheckSymbolExists.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindBZip2.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindFreetype.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindPNG.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindPackageMessage.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\FindZLIB.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\cmake_bin\share\cmake-3.23\Modules\SelectLibraryConfigurations.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\freetype\vcpkg-cmake-wrapper.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\glm\glm-config.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLConfig.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLConfigDependencies.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLConfigVersion.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\sfml\SFMLStaticTargets.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-config-version.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-config.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-static-targets-debug.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-static-targets-release.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\tinyxml2\tinyxml2-static-targets.cmake;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\share\zlib\vcpkg-cmake-wrapper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\cmake\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\core\asserts.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\core\sprintf_helpers.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\maths\maths_extensions.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\filesystem.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\input.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\logger.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\memory.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\monitor_support.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\sleep.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\font_support.cpp" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\font_support.h" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\sfml\sfml_2d.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\sfml\sfml_renderer.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\sfml\sfml_texture.cpp" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\support\spritesheet.cpp" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\constants.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\core\asserts.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\core\random.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\core\sprintf_helpers.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\magpie.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\maths\maths.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\maths\maths_extensions.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\entry_point.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\filesystem.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\input.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\logger.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\memory.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\monitor_support.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\sleep.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\interface_2d.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\interface_renderer.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\interface_texture.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\sfml\sfml_2d.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\sfml\sfml_renderer.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\sfml\sfml_texture.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\support\spritesheet.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\vendor\magpie_optick.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Uni_work\Year2\SHOT\Assignment_2\cmake\ZERO_CHECK.vcxproj">
+      <Project>{6386BA6F-5FB3-3F16-97EE-A8B339675172}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

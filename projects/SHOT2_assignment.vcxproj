@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FABAEE87-B535-3DDB-BB64-3744B3452C05}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SHOT2_assignment</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SHOT2_assignment.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SHOT2_assignment</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Uni_work/Year2/SHOT/Assignment_2/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SHOT2_assignment.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SHOT2_assignment</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Uni_work/Year2/SHOT/Assignment_2/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SHOT2_assignment.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SHOT2_assignment</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Uni_work/Year2/SHOT/Assignment_2/bin</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;SFML_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;SFML_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Uni_work/Year2/SHOT/Assignment_2/bin/Debug/SHOT2_assignment.exe -installedDir F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\bin\Debug\Magpie_win_sfml_d.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\sfml-network-s-d.lib;ws2_32.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\sfml-graphics-s-d.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\freetyped.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\bz2d.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\libpng16d.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\zlibd.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\brotlidec-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\brotlicommon-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\brotlidec-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\brotlicommon-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\sfml-window-s-d.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\sfml-system-s-d.lib;winmm.lib;OpenGL32.lib;gdi32.lib;XInput.lib;..\..\vendor\vcpkg\installed\x64-windows-static\debug\lib\tinyxml2.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Uni_work/Year2/SHOT/Assignment_2/bin/Debug/SHOT2_assignment.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Uni_work/Year2/SHOT/Assignment_2/bin/Debug/SHOT2_assignment.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;SFML_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;SFML_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Uni_work/Year2/SHOT/Assignment_2/bin/Release/SHOT2_assignment.exe -installedDir F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\bin\Release\Magpie_win_sfml.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\sfml-network-s.lib;ws2_32.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\sfml-graphics-s.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\freetype.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\bz2.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\libpng16.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\zlib.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\brotlidec-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\brotlicommon-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\brotlidec-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\brotlicommon-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\sfml-window-s.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\sfml-system-s.lib;winmm.lib;OpenGL32.lib;gdi32.lib;XInput.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\tinyxml2.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Uni_work/Year2/SHOT/Assignment_2/bin/Release/SHOT2_assignment.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Uni_work/Year2/SHOT/Assignment_2/bin/Release/SHOT2_assignment.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MAGPIE_PLATFORM_NAME=win;MAGPIE_PLATFORM_WINDOWS;MAGPIE_PLATFORM_SUPPORTS_KEYBOARD;MAGPIE_PLATFORM_SUPPORTS_MOUSE;MAGPIE_RENDERER_SFML;GLM_FORCE_RADIANS;GLM_FORCE_LEFT_HANDED;GLM_FORCE_DEPTH_ZERO_TO_ONE;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Uni_work\Year2\SHOT\Assignment_2\include;F:\Uni_work\Year2\SHOT\Assignment_2\vendor\vcpkg\installed\x64-windows-static\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Uni_work/Year2/SHOT/Assignment_2/bin/RelWithDebInfo/SHOT2_assignment.exe -installedDir F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\bin\RelWithDebInfo\Magpie_win_sfml_rwdi.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\sfml-network-s.lib;ws2_32.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\sfml-graphics-s.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\freetype.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\bz2.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\libpng16.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\zlib.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\brotlidec-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\brotlicommon-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\brotlidec-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\brotlicommon-static.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\sfml-window-s.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\sfml-system-s.lib;winmm.lib;OpenGL32.lib;gdi32.lib;XInput.lib;..\..\vendor\vcpkg\installed\x64-windows-static\lib\tinyxml2.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Uni_work/Year2/SHOT/Assignment_2/bin/RelWithDebInfo/SHOT2_assignment.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Uni_work/Year2/SHOT/Assignment_2/bin/RelWithDebInfo/SHOT2_assignment.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Uni_work\Year2\SHOT\Assignment_2\projects\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Uni_work/Year2/SHOT/Assignment_2/projects/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\vendor\cmake_bin\bin\cmake.exe -SF:/Uni_work/Year2/SHOT/Assignment_2 -BF:/Uni_work/Year2/SHOT/Assignment_2/cmake --check-stamp-file F:/Uni_work/Year2/SHOT/Assignment_2/cmake/projects/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\cmake\projects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Uni_work/Year2/SHOT/Assignment_2/projects/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\vendor\cmake_bin\bin\cmake.exe -SF:/Uni_work/Year2/SHOT/Assignment_2 -BF:/Uni_work/Year2/SHOT/Assignment_2/cmake --check-stamp-file F:/Uni_work/Year2/SHOT/Assignment_2/cmake/projects/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\cmake\projects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Uni_work/Year2/SHOT/Assignment_2/projects/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\vendor\cmake_bin\bin\cmake.exe -SF:/Uni_work/Year2/SHOT/Assignment_2 -BF:/Uni_work/Year2/SHOT/Assignment_2/cmake --check-stamp-file F:/Uni_work/Year2/SHOT/Assignment_2/cmake/projects/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Uni_work\Year2\SHOT\Assignment_2\cmake\projects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\projects\SHOT2\assignment\constants.h" />
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\projects\SHOT2\assignment\main.cpp" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\projects\SHOT2\assignment\particle_renderer_2d.h" />
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\projects\SHOT2\assignment\particle_system.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Uni_work\Year2\SHOT\Assignment_2\cmake\ZERO_CHECK.vcxproj">
+      <Project>{6386BA6F-5FB3-3F16-97EE-A8B339675172}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\Uni_work\Year2\SHOT\Assignment_2\cmake\src\Magpie_win_sfml.vcxproj">
+      <Project>{96B8ADBD-C373-3A15-87BD-4749590599D6}</Project>
+      <Name>Magpie_win_sfml</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

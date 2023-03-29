@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+F:/Uni_work/Year2/SHOT/Assignment_2/src/CMakeLists.txt
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/cmake_bin/share/cmake-3.23/Modules/CMakeFindDependencyMacro.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/cmake_bin/share/cmake-3.23/Modules/CMakePushCheckState.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/cmake_bin/share/cmake-3.23/Modules/CheckSymbolExists.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/cmake_bin/share/cmake-3.23/Modules/FindBZip2.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/cmake_bin/share/cmake-3.23/Modules/FindFreetype.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/cmake_bin/share/cmake-3.23/Modules/FindPNG.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/cmake_bin/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/cmake_bin/share/cmake-3.23/Modules/FindPackageMessage.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/cmake_bin/share/cmake-3.23/Modules/FindZLIB.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/cmake_bin/share/cmake-3.23/Modules/SelectLibraryConfigurations.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/freetype/vcpkg-cmake-wrapper.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/glm/glm-config.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/sfml/SFMLConfig.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/sfml/SFMLConfigDependencies.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/sfml/SFMLConfigVersion.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/sfml/SFMLStaticTargets.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/tinyxml2/tinyxml2-config-version.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/tinyxml2/tinyxml2-config.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/tinyxml2/tinyxml2-static-targets-debug.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/tinyxml2/tinyxml2-static-targets-release.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/tinyxml2/tinyxml2-static-targets.cmake
+F:/Uni_work/Year2/SHOT/Assignment_2/vendor/vcpkg/installed/x64-windows-static/share/zlib/vcpkg-cmake-wrapper.cmake

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\core\asserts.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\core\sprintf_helpers.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\maths\maths_extensions.cpp">
+      <Filter>src\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\filesystem.cpp">
+      <Filter>src\platform\win</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\input.cpp">
+      <Filter>src\platform\win</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\logger.cpp">
+      <Filter>src\platform\win</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\memory.cpp">
+      <Filter>src\platform\win</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\monitor_support.cpp">
+      <Filter>src\platform\win</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\platform\win\sleep.cpp">
+      <Filter>src\platform\win</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\font_support.cpp">
+      <Filter>src\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\sfml\sfml_2d.cpp">
+      <Filter>src\renderer\sfml</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\sfml\sfml_renderer.cpp">
+      <Filter>src\renderer\sfml</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\sfml\sfml_texture.cpp">
+      <Filter>src\renderer\sfml</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\support\spritesheet.cpp">
+      <Filter>src\renderer\support</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\renderer\font_support.h">
+      <Filter>src\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\constants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\core\asserts.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\core\random.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\core\sprintf_helpers.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\magpie.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\maths\maths.h">
+      <Filter>include\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\maths\maths_extensions.h">
+      <Filter>include\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\entry_point.h">
+      <Filter>include\platform\win</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\filesystem.h">
+      <Filter>include\platform\win</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\input.h">
+      <Filter>include\platform\win</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\logger.h">
+      <Filter>include\platform\win</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\memory.h">
+      <Filter>include\platform\win</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\monitor_support.h">
+      <Filter>include\platform\win</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\platform\win\sleep.h">
+      <Filter>include\platform\win</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\interface_2d.h">
+      <Filter>include\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\interface_renderer.h">
+      <Filter>include\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\interface_texture.h">
+      <Filter>include\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\sfml\sfml_2d.h">
+      <Filter>include\renderer\sfml</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\sfml\sfml_renderer.h">
+      <Filter>include\renderer\sfml</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\sfml\sfml_texture.h">
+      <Filter>include\renderer\sfml</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\renderer\support\spritesheet.h">
+      <Filter>include\renderer\support</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Uni_work\Year2\SHOT\Assignment_2\include\vendor\magpie_optick.h">
+      <Filter>include\vendor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Uni_work\Year2\SHOT\Assignment_2\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{E1633EBB-B465-330F-9A63-ECBE881F1FED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core">
+      <UniqueIdentifier>{92CBCA66-24C6-3C57-B6BB-8E697FDC5186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\maths">
+      <UniqueIdentifier>{1AF67A25-FC1B-3E2D-A340-6CA3B97C6710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\platform">
+      <UniqueIdentifier>{4C6052CD-DD92-39AA-B059-F32B5EF1B813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\platform\win">
+      <UniqueIdentifier>{626B75C1-D2E4-39E2-B3DE-C38145A39184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\renderer">
+      <UniqueIdentifier>{C9D2CBD5-677B-3452-9AAB-0777CF795C8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\renderer\sfml">
+      <UniqueIdentifier>{98335F9D-076B-35C5-859E-FAE4DAA6105F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\renderer\support">
+      <UniqueIdentifier>{E3BD2308-21D2-3A1F-BE39-D1F0B85EC2A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\vendor">
+      <UniqueIdentifier>{987BD76B-7CB8-340D-A484-2E6E1CDEAFF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{9489B53F-2066-3C3C-B628-AE81CB4BCB5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{DF1E949C-C8A1-3A60-8544-D2017E1ADF41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\maths">
+      <UniqueIdentifier>{A3890C51-DEA1-31B9-BEE3-9D3724B6BF95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform">
+      <UniqueIdentifier>{372B5C12-5457-34E6-832F-928D6B125D68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform\win">
+      <UniqueIdentifier>{EE1A579B-492B-334D-BA31-A8A224E4CE95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer">
+      <UniqueIdentifier>{6E76297C-6CAA-3E34-88FD-FAD521B4A9BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer\sfml">
+      <UniqueIdentifier>{4A208ACE-9951-3442-A4AC-98D4BC55209A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer\support">
+      <UniqueIdentifier>{1936A96A-598E-388E-BA47-CE47C49468FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
